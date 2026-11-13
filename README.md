@@ -61,8 +61,8 @@ versions, including transitive dependencies and build tools, are recorded in
 ## 6. Project Structure
 
 The current structure is shown below, omitting Git internals, caches, and generated
-package metadata. Local datasets and the PDF are shown for orientation and are
-not intended for repository distribution.
+package metadata. Raw datasets are stored locally; the original paper PDF is
+included in `docs/` as a research reference.
 
 ```text
 .
@@ -175,10 +175,11 @@ Football-Data.co.uk. *Historical football results and betting odds*.
 
 ## 10. Data Availability and Reproducibility
 
-Raw Excel datasets in `data/raw/` and the original paper PDF in `docs/` are stored
-locally and are not intended for redistribution through this repository. Obtain
-source materials from their respective providers and place them in the documented
-local directories. No licensing or redistribution permissions are asserted here.
+Raw Excel datasets in `data/raw/` are stored locally and are not intended for
+redistribution through this repository. Obtain datasets from the source provider
+and place them in the documented local directory. The original paper PDF is
+included in `docs/` as a research reference. No licensing or redistribution
+permissions are asserted here.
 
 The repository records the Python version, dependency versions, package structure,
 and environment smoke tests. The dependency lock captures the initial environment;
